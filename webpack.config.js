@@ -1,5 +1,7 @@
 'use strict'
 
+const HTMLWebpackPlugin = require('html-webpack-plugin')
+
 const isDev = !process.argv.includes('-p')
 
 const config = {
@@ -11,6 +13,12 @@ const config = {
     filename: 'bundle.js',
     path: __dirname + '/dist'
   },
+
+  plugins: [
+    new HTMLWebpackPlugin({
+      template: './index.html'
+    })
+  ],
 
   cache: isDev,
 
