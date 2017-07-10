@@ -9,5 +9,5 @@ const Main = props => (
 
 render(
   <Main text="Hello, world."/>,
-  document.body
+  document.getElementById('root')
 )
