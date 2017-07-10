@@ -16,5 +16,11 @@ const config = {
 
   devtool: isDev ? 'cheap-module-eval-source-map' : false,
 
+  devServer: {
+    port: 3000
+  }
+
   target: 'web'
 }
+
+module.exports = config
