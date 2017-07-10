@@ -17,8 +17,9 @@ const config = {
   devtool: isDev ? 'cheap-module-eval-source-map' : false,
 
   devServer: {
+    contentBase: __dirname + '/dist',
     port: 3000
-  }
+  },
 
   target: 'web'
 }
