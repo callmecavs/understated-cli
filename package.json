@@ -6,7 +6,7 @@
     "prod": "webpack -p"
   },
   "dependencies": {
-    "understated": "0.0.1"
+    "understated": "0.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
