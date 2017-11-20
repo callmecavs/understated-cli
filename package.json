@@ -1,6 +1,6 @@
 {
   "name":        "understated-cli",
-  "description": "",
+  "description": "Create understated sites with no configuration.",
 
   "version": "0.0.1",
   "license": "MIT",
