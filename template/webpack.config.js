@@ -23,11 +23,11 @@ const config = {
           loader: 'babel-loader',
           options: {
             presets: [
-              'env'
+              '@babel/preset-env'
             ],
             plugins: [
-              ['transform-react-jsx', { pragma: 'h' }],
-              'transform-object-rest-spread'
+              ['@babel/plugin-transform-react-jsx', { pragma: 'h' }],
+              '@babel/plugin-syntax-object-rest-spread'
             ]
           }
         }
