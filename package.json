@@ -1,21 +1,27 @@
 {
-  "name": "",
-  "version": "",
-  "scripts": {
-    "dev": "webpack-dev-server --hot --inline",
-    "prod": "webpack -p"
+  "name":        "understated-cli",
+  "description": "",
+
+  "version": "0.0.1",
+  "license": "MIT",
+
+  "repository": "callmecavs/understated-cli",
+
+  "author": {
+    "name":  "Michael Cavalea",
+    "email": "callmecavs@gmail.com",
+    "url":   "http://callmecavs.com/"
   },
+
+  "bin": {
+    "outset": "outset.js"
+  },
+
+  "keywords": [
+
+  ],
+
   "dependencies": {
-    "understated": "0.0.2"
-  },
-  "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.6.0",
-    "html-webpack-plugin": "^2.29.0",
-    "webpack": "^3.1.0",
-    "webpack-dev-server": "^2.5.1"
+    "fs-extra": "^4.0.2"
   }
 }
