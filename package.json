@@ -2,7 +2,7 @@
   "name":        "understated-cli",
   "description": "Create understated sites with no configuration.",
 
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
 
   "repository": "callmecavs/understated-cli",
